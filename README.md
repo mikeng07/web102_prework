@@ -32,7 +32,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Great experience 
 
 ## License
 
