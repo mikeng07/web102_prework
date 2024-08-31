@@ -19,8 +19,19 @@ body {
     margin-top: -10px;
 }
 
+/* Added Flexbox properties to stats-container */
 .stats-container {
-    display: flex;
+    display: flex;          /* Enable Flexbox layout */
+    align-items: center;   /* Center items vertically */
+    /* Add justify-content if needed for alignment along the main axis */
+    /* justify-content: center; */
+    
+}
+
+/* Hover effect for stats-container */
+.stats-container:hover {
+    cursor: pointer;               /* Change cursor to pointer on hover */
+    box-shadow: 0 0 30px lightblue; /* Add a light blue glow effect */
 }
 
 .stats-card {
